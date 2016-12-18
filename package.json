@@ -35,6 +35,11 @@
   },
   "xo": {
     "esnext": true,
+    "space": true,
+    "semicolon": false,
+    "rules": {
+      "space-before-function-paren": "off"
+    },
     "envs": [
       "node",
       "browser"
