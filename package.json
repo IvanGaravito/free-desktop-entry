@@ -10,6 +10,7 @@
     "email": "ivangaravito@gmail.com",
     "url": "github.com/IvanGaravito"
   },
+  "main": "src/main/app.js",
   "scripts": {
     "test": "xo",
     "start": "electron .",

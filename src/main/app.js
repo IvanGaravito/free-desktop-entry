@@ -1,7 +1,9 @@
 'use strict'
 const electron = require('electron')
+const path = require('path')
 
 const app = electron.app
+const staticPath = path.resolve(__dirname, '..', '..', 'static')
 
 // adds debug features like hotkeys for triggering dev tools and reload
 require('electron-debug')()
@@ -21,7 +23,7 @@ function createMainWindow () {
     height: 400
   })
 
-  win.loadURL(`file://${__dirname}/index.html`)
+  win.loadURL(`file://${staticPath}/index.html`)
   win.on('closed', onClosed)
 
   return win
