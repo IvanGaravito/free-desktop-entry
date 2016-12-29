@@ -27,6 +27,7 @@
     "electron"
   ],
   "dependencies": {
+    "electron": "^1.4.13",
     "electron-compile": "^4.0.3",
     "electron-debug": "^1.0.0"
   },
